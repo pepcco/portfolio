@@ -1,0 +1,62 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+	width:100%; 
+	overflow-x:hidden;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body,
+h1, 
+h2, 
+h3,
+p,
+figure,
+blockquote{
+  margin: 0;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+label {
+	display: block;
+}
+
+button,
+input {
+	font: inherit;
+	border: 0;
+	appearance: none;
+	padding: 0;
+}
+
+button {
+	background-color: transparent;
+}
